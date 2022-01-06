@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency converter</h1>
+        <div class="currency">
+          <select name="" id="currency-one">
+              <option value="USD">USD</option>
+              <option value="RUB">RUB</option>
+              <option value="KGS"selected>KGS</option>
+          </select>
+          <input type="number" id="amount-one" placeholder="0">
+        </div>
+        <button class="btn" id="swap">SWAP</button>
+        <div class="rate" id="rate"></div>
+        <div class="currency">
+            <select name="" id="currency-two">
+                <option value="USD"selected>USD</option>
+                <option value="RUB">RUB</option>
+                <option value="KGS">KGS</option>
+            </select>
+            <input type="number" id="amount-two">
+          </div>
+    </div>
+    
+    <script src="js.js"></script>
+</body>
+</html>
